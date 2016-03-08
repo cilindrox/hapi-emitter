@@ -10,11 +10,6 @@ npm install --save hapi-ioredis
 ```
 
 
-## Quick start
-
-This pretty much works as a regular node-redis/ioredis client, with the addition of providing an easily accessible instance via the [`server.app`](http://hapijs.com/api#serverapp) common namespace.
-
-
 ## Example
 
 ```js
