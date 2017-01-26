@@ -32,6 +32,6 @@
     "lab": "11.x.x"
   },
   "dependencies": {
-    "hoek": "3.x.x"
+    "hoek": "4.x.x"
   }
 }
