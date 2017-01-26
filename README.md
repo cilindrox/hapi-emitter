@@ -6,7 +6,7 @@ A hapi EventEmitter plugin
 ## Installation
 
 ```
-npm install --save hapi-ioredis
+npm install --save hapi-emitter
 ```
 
 
@@ -22,7 +22,7 @@ server.connection({ host: 'localhost' });
 
 // Register the plugin
 server.register({
-    register: require('hapi-ioredis'),
+    register: require('hapi-emitter'),
     options: {
         name: 'events'
     }
