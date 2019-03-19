@@ -9,6 +9,9 @@ A hapi EventEmitter plugin
 npm install --save hapi-emitter
 ```
 
+## Versions
+Use v1.x.x in consumers using Hapi 16.
+Use v2.x.x in consumers using Hapi 17+.
 
 ## Example
 
