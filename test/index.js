@@ -12,25 +12,22 @@ const Emitter = require('../');
 // Test shortcuts
 
 const lab = exports.lab = Lab.script();
-const expect = Code.expect;
-const it = lab.it;
+const { expect } = Code;
+const { it } = lab;
 
 
-it('good', (done) => {
+it('good', async () => {
 
     const plugin = {
-        register: Emitter,
+        plugin: Emitter,
         options: {
             name: 'events'
         }
     };
 
     const server = new Hapi.Server();
-    server.register(plugin, (err) => {
+    await expect(server.register(plugin)).to.not.reject();
 
-        expect(err).to.not.exist();
-        expect(server.events).to.exist();
-        expect(server.events).to.be.an.instanceof(EventEmitter);
-        done();
-    });
+    expect(server.events).to.exist();
+    expect(server.events).to.be.an.instanceof(EventEmitter);
 });
