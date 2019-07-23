@@ -2,9 +2,9 @@
 
 // Load modules
 
-const Code = require('code');
-const Hapi = require('hapi');
-const Lab = require('lab');
+const Code = require('@hapi/code');
+const Hapi = require('@hapi/hapi');
+const Lab = require('@hapi/lab');
 const EventEmitter = require('events').EventEmitter;
 
 const Emitter = require('../');
@@ -16,7 +16,7 @@ const { expect } = Code;
 const { it } = lab;
 
 
-it('good', async () => {
+it('should register as a plugin', async () => {
 
     const plugin = {
         plugin: Emitter,
