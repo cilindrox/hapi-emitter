@@ -1,7 +1,7 @@
 # hapi-emitter
 A hapi EventEmitter plugin
 
-[![Build Status](https://travis-ci.org/cilindrox/hapi-emitter.svg)](https://travis-ci.org/cilindrox/hapi-emitter)
+[![CircleCI](https://circleci.com/gh/cilindrox/hapi-emitter.svg?style=svg)](https://circleci.com/gh/cilindrox/hapi-emitter)
 
 ## Installation
 
