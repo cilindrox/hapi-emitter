@@ -27,9 +27,9 @@
   },
   "homepage": "https://github.com/cilindrox/hapi-emitter#readme",
   "devDependencies": {
-    "@hapi/code": "6.x",
+    "@hapi/code": "7.x",
     "@hapi/hapi": "18.x.x",
-    "@hapi/lab": "20.x"
+    "@hapi/lab": "21.x"
   },
   "dependencies": {
     "@hapi/hoek": "8.x.x"
