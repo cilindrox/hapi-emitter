@@ -4,7 +4,7 @@
   "description": "A hapi EventEmitter plugin",
   "main": "lib/index.js",
   "engines": {
-    "node": ">=10.15.0"
+    "node": ">=v10.18.0"
   },
   "scripts": {
     "test": "lab",
