@@ -29,7 +29,7 @@
   "devDependencies": {
     "@hapi/code": "7.x",
     "@hapi/hapi": "18.x.x",
-    "@hapi/lab": "21.x"
+    "@hapi/lab": "22.x"
   },
   "dependencies": {
     "@hapi/hoek": "8.x.x"
