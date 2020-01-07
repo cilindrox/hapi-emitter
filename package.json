@@ -32,6 +32,6 @@
     "@hapi/lab": "22.x"
   },
   "dependencies": {
-    "@hapi/hoek": "8.x.x"
+    "@hapi/hoek": "9.x"
   }
 }
