@@ -28,8 +28,8 @@
   "homepage": "https://github.com/cilindrox/hapi-emitter#readme",
   "devDependencies": {
     "@hapi/code": "8.x",
-    "@hapi/hapi": "19.x",
-    "@hapi/lab": "22.x"
+    "@hapi/hapi": "20.x",
+    "@hapi/lab": "24.x"
   },
   "dependencies": {
     "@hapi/hoek": "9.x"
